@@ -19,10 +19,19 @@ header{
 }
 .banner > p{
     font-size: 32px;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 400;
 }
 .banner > h3{
     font-size: 72px;
     font-family: Merriweather;
+    color: #FFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
 }
 
 
@@ -40,15 +49,27 @@ header{
     font-size: 88px;
     color: #F00;
     margin-bottom: 30px;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
 }
 .one-content > p{
     font-size: 24px;
     color: #F00; 
     margin-bottom: 10px;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
 }
 .one-content > h4{
     color: #070211;
+    text-align: center;
+    font-family: Inter;
     font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
 }
 .one > img{
     margin-left: 00px;
@@ -82,19 +103,29 @@ header{
     color: #FFF;
     font-size: 64px;
     width: 642px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; 
 }
 .two-content > p{
     color: rgba(255, 255, 255, 0.80);
     font-size: 18px;
     margin-bottom: 50px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
 }
 .two-content > button{
-    color: #FFF;
-    text-align: center;
-    font-size: 20px;
-    text-transform: uppercase;
     background-color: transparent;
     border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 .two > img{
     margin-right: 138px;
@@ -119,8 +150,11 @@ header{
 }
 .three-content > p{
     color: #070211;
+    font-family: Inter;
     font-size: 32px;
+    font-style: normal;
     font-weight: 600;
+    line-height: 56px;
 }
 .three-content > button{
     border-radius: 8px;
@@ -128,13 +162,23 @@ header{
     padding: 16px 32px;
     border: none;
     color: #FFF;
+    text-align: center;
+    font-family: Inter;
     font-size: 20px;
+    font-style: normal;
     font-weight: 700;
+    line-height: normal;
     margin-top: 60px;
 
 }
 .three-content > p > .three-orange{
     color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
 }
 
 /* Coming Soon section */
@@ -150,8 +194,43 @@ header{
 .four-content > .part-one{
     width: 393px;
 }
+.four-content > .part-one > p{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+.four-content > .part-one > h3{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+}
+.four-content > .part-one > h5{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
 .part-three{
     width: 276px;
+}
+.four-content > .part-three > h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+.four-content > .part-three > p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
 }
 .part-two > img{
     padding: 49px;
@@ -169,6 +248,37 @@ header{
     text-align:center;
     position: relative;
     top: 110px;
+}
+.five-content > h4{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+.five-content > h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.five-content > h2 > span{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+}
+.five-content > p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
 }
 .five-img1{
     display: flex;
@@ -194,10 +304,33 @@ header{
    top:230px;
    left: 94px; 
 }
+
 /* portfolio */
 .six{
     margin: 120px auto;
     width: 80%;
+}
+.six-content > h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+.six-content > h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.six-content > p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
 }
 .six-img{
     display: grid;
@@ -226,11 +359,33 @@ header{
     position: absolute;
     transform: translate(-50%,-50%);
 }
+.seven-content > h3{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.seven-content > p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
 input[type="email"]{
     padding: 25px 267px 25px 30px;
     font-size: 18px;
     border: none;
     border-radius: 50px 0 0 50px;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
 }
 input[type="submit"]{
     padding: 24px 56px;
@@ -240,6 +395,11 @@ input[type="submit"]{
     background: #F00;
     border: none;
     font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
 }
 .input{
     min-width: 800px;
@@ -258,6 +418,15 @@ footer{
     padding-top: 100px;
     align-items: center;
 }
+.footer-content > p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; 
+    width: 375px;
+}
 .element{
     color: white;
     width: 80%;
@@ -265,9 +434,11 @@ footer{
 }
 .num{
     display: flex;
+    
 }
 .web{
     display: flex;
+    
 }
 hr{
     background: rgba(255, 255, 255, 0.15);
@@ -281,4 +452,37 @@ hr{
 .last{
     display: flex;
     justify-content: space-between;
+}
+.last > p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+.num > p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.web > p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.num > img{
+    height: 24px;
+    width: 24px;
+    padding-top: 32px;
+}
+.web > img{
+    height: 24px;
+    width: 24px;
+    padding-top: 36px;
 }
