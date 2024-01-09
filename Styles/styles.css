@@ -4,9 +4,9 @@ header{
     top: 0;
     left:0;
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../Images/Banner.png);
-    width: 1320px;
+    width: 80%;
     height: 600px;
-    margin: 50px 140px 0px;
+    margin: 50px auto;
     border-radius: 16px;
 }
 .banner{
@@ -22,6 +22,7 @@ header{
 }
 .banner > h3{
     font-size: 72px;
+    font-family: Merriweather;
 }
 
 
@@ -29,29 +30,30 @@ header{
 
 /* Catagories section */
 .one{
-    position: relative;
-    top: 0;
-    left: 0;
-    margin-top: 120px;
+    margin: 120px auto;
+    text-align: center;
 }
 .one-content{
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);    
 }
 .one-content > h3{
     font-size: 88px;
     color: #F00;
+    margin-bottom: 30px;
 }
 .one-content > p{
     font-size: 24px;
     color: #F00; 
+    margin-bottom: 10px;
 }
 .one-content > h4{
     color: #070211;
     font-size: 48px;
+}
+.one > img{
+    margin-left: 00px;
+    width: 802.9px;
+    height: 500px;
 }
 
 /* Midnight party section */
@@ -61,9 +63,13 @@ header{
     top: 0;
     left: 0;
     background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../Images/Vectorrr.png);
-    width: 1320px;
+    width: 80%;
     height: 600px;
-    margin: 0px 140px;
+    margin: 120px auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .two-content{
     text-align: left;
@@ -87,6 +93,192 @@ header{
     text-align: center;
     font-size: 20px;
     text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+}
+.two > img{
+    margin-right: 138px;
 }
 
+/* Park Hotel Section */
+.three{
+    position: relative;
+    top: 0;
+    left: 0;
+    background-image:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
+    margin: 120px auto;
+}
+.three-content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+.three-content > p{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+}
+.three-content > button{
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 60px;
+
+}
+.three-content > p > .three-orange{
+    color: #F00;
+}
+
+/* Coming Soon section */
+.four{
+    margin: auto;
+    width: 80%;
+}
+.four-content{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.four-content > .part-one{
+    width: 393px;
+}
+.part-three{
+    width: 276px;
+}
+.part-two > img{
+    padding: 49px;
+    border-radius: 50%;
+    border: 15px solid #F00;
+    margin: 0px 70px;
+}
     
+/*Holiday Sale  */
+.five{
+    margin: 120px auto;
+    width: 80%;
+}    
+.five-content{
+    text-align:center;
+    position: relative;
+    top: 110px;
+}
+.five-img1{
+    display: flex;
+    justify-content: space-between;
+}
+.group75{
+    position: relative;
+    top: 200px;
+}
+.five-img2{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.rec{
+    position: absolute;
+    top: 70%;
+    left: 21%;
+    transform: translate(-50%,-50%);
+}
+.girl{
+   position: relative;
+   top:230px;
+   left: 94px; 
+}
+/* portfolio */
+.six{
+    margin: 120px auto;
+    width: 80%;
+}
+.six-img{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+}    
+.six-img > img {
+    width: 100%;
+}
+
+/* Newsletter */
+.seven{
+    margin: 120px auto;
+    width: 80%;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.seven-content{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+input[type="email"]{
+    padding: 25px 267px 25px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+}
+input[type="submit"]{
+    padding: 24px 56px;
+    position: relative;
+    left: -5px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    font-size: 20px;
+}
+.input{
+    min-width: 800px;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    align-items: center;
+}
+.element{
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+.num{
+    display: flex;
+}
+.web{
+    display: flex;
+}
+hr{
+    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    padding: 48px 0px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
